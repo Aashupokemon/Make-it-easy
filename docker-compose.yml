@@ -1,0 +1,8 @@
+version: "3"
+services:
+   app:
+     image: ayush_app
+     build: .
+     volumes:
+         - /root/ayush
+     stdin_open: true
